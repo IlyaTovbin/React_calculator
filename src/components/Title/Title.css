@@ -1,0 +1,33 @@
+.title{
+  color: #ccc;
+  font-size: 3.2rem;
+  margin-top: 7rem;
+}
+
+.left-side-box{
+  display: flex;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .my-border-bottom{
+    border-bottom: 2px solid #ccc;
+    border-right: none;
+  }
+  .left-side-box{
+    height: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .my-border-right{
+    border-right: 2px solid #ccc;
+  }
+  .left-side-box{
+    height: 40rem;
+  }
+}
+
+
+

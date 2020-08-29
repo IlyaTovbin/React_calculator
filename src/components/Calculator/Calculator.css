@@ -1,0 +1,24 @@
+.main-clac-box{
+  background: #ccc;
+  border-radius: 15px;
+  padding: 1.2rem;
+  height: 23rem;
+  width: 18rem;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+@media only screen and (max-width: 1199px) {
+  .main-clac-box{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-clac-box{
+    margin-top: 10rem;
+  }
+  
+}

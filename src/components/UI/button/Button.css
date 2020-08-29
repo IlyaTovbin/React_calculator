@@ -1,0 +1,21 @@
+.btns{
+  font-size: 2rem;
+  height: 4.1rem;
+  background: #000;
+  opacity: .8;
+  width: 4.3rem;
+  border-radius: 5px;
+  transition: .2s ease-in;
+}
+
+.react-color{
+  color: #60D9F7;
+}
+
+.white-color{
+  color: #ccc;
+}
+
+button:hover{
+  color:#3A79CD;
+}
